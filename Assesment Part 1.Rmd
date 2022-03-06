@@ -1,0 +1,36 @@
+---
+title: "Assignment 1.rmd"
+author: "Huiyuzi Li s4664198"
+date: "3/6/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+R Markdown editing
+##This is a secondary heading
+*Let's start to learn some markdown!*
+**Let's start to learn some markdown!**
+[Rmark down studio](http://rmarkdown.rstudio.com)
+
+
+##**Packages**
+
+
+#install.packages("tidyverse)
+#install.packages("knitr")
+
+library(tidyverse)
+library(knitr)
+library(skimr)
+
+##fastfood dataset
+We are going to use the 'fastfood.csv' dataset
+
+###Imported the 'fastfood.csv'dataset
+fastfood<-read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2018/2018-09-04/fastfood_calories.csv')
+
+##**Solve below questions**
